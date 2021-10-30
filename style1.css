@@ -1,0 +1,242 @@
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-position: center;
+}
+
+.header {
+	background-color: rgba(223, 43, 225,0.4);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 10px;
+	border: none;
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.junrynn {
+	background-color: rgba(223, 43, 225,0.4);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 5px;
+	border-radius: 10px;
+	border: none;
+	width: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: white;
+	font-size: 30px;
+}
+
+.container {
+	background-color: rgba(255, 255, 255,0.2);
+	box-shadow: 0 10px 15px 0px rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 50%;
+	margin-top: 2px;
+}
+
+.subjudul {
+	background-color: rgba(223, 43, 225,0.4);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: none;
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.sub {
+	background-color: rgba(223, 43, 225,0.4);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	padding-top: 10px;
+
+}
+
+.diamondi {
+	color: white;
+	background-color: rgba(223, 43, 225,0.1);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.8), 20px 20px 20px 20px rgba(0, 0, 0, 0.19);
+	margin-top: 10px;
+	margin-left: 10px;
+	border: none;
+	width: 47%;
+	padding-top: 2px;
+	padding-bottom: 10px;
+	float: left;
+}
+
+.diamonds {
+	background-color: rgba(223, 43, 225,0.1);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.8), 20px 20px 20px 20px rgba(0, 0, 0, 0.19);
+	margin-top: 10px;
+	margin-right: 10px;
+	border: none;
+	width: 47%;
+	padding-top: 2px;
+	padding-bottom: 10px;
+	float: right;
+}
+
+
+.item	{
+	background-color: rgba(223, 43, 225,0.7);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: left;
+	width: 45%;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.price {
+	background-color: rgba(223, 43, 225,0.7);
+	box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	float: right;
+	width: 45%;
+	margin-right: 10px;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.item1 {
+	background-color: rgba(255,255,255,0.5);
+	float: left;
+	margin-right: 6px;
+	border-radius: 10px;
+	padding: 2px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: black;
+}
+
+.price1 {
+	background-color: rgba(255,255,255,0.5);
+	float: right;
+	margin-left: 6px;
+	border-radius: 10px;
+	padding: 2px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: black;
+
+}
+
+.note {
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	color: black;
+	padding-top: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul {
+	margin-left: 30px;
+	padding: 3px;
+}
+
+li	{
+	float: left;
+
+}
+
+/* layar 850px kebawah */
+@media screen and (max-width: 850px) {
+	
+.container {
+  margin-top: 10px;
+  width: 100%;
+	}
+.header	{
+	width: 90%;
+}
+
+.junrynn {
+	width: 90%;
+}
+
+.subjudul {
+	width: 90%;
+}
+
+.diamondi {
+	width: 90%;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.diamonds {
+	width: 90%;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.item1 {
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-left: -80px;
+}
+
+.price1 {
+	padding-right: 20px;
+	margin-right: -80px;
+	margin-left: 20px;
+}
+
+}
+
+
+/*  layar 600px kebawah */
+@media screen and (max-width: 600px) {
+	
+.container {
+  margin-top: 10px;
+  width: 100%;
+	}
+.header	{
+	width: 90%;
+}
+
+.junrynn {
+	width: 90%;
+}
+
+.subjudul {
+	width: 90%;
+}
+
+.diamondi {
+	width: 90%;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.diamonds {
+	width: 90%;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.item1 {
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-left: -80px;
+}
+
+.price1 {
+	padding-right: 20px;
+	margin-right: -80px;
+	margin-left: 20px;
+}
+}
+
+
+
