@@ -154,6 +154,14 @@ li	{
 
 /*  layar 505px kebawah */
 @media screen and (max-width: 1240px) {
+	
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+}
 
 .banner {
 	width: 50%;
@@ -240,6 +248,14 @@ ul {
 
 /*  layar 505px kebawah */
 @media screen and (max-width: 700px) {
+	
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+}
 
 .banner {
 	width: 90%;
@@ -327,6 +343,14 @@ ul {
 
 /*  layar 505px kebawah */
 @media screen and (max-width: 520px) {
+	
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+}
 
 .banner {
 	width: 95%;
@@ -414,6 +438,14 @@ ul {
 
 /*  layar 420px kebawah */
 @media screen and (max-width: 420px) {
+	
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+}
 
 .banner {
 	width: 95%;
@@ -506,6 +538,14 @@ ul {
 
 /*  layar 330px kebawah */
 @media screen and (max-width: 330px) {
+
+.bg {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	position: relative;
+}
 
 .banner {
 	width: 95%;
