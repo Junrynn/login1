@@ -1,0 +1,751 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+   	margin: 0;
+   	padding: 0;
+   	border: 0;
+   	font-size: 100%;
+   	font: inherit;
+   	vertical-align: baseline;
+   }
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+   	display: block;
+   }
+   body {
+   	line-height: 1;
+   }
+   ol, ul {
+   	list-style: none;
+   }
+   blockquote, q {
+   	quotes: none;
+   }
+   blockquote:before, blockquote:after,
+   q:before, q:after {
+   	content: '';
+   	content: none;
+   }
+   table {
+   	border-collapse: collapse;
+   	border-spacing: 0;
+   }
+
+
+   /*my css*/
+
+   body {
+   	font-family: arial, sans-serif;
+   	background-color: #eaeaea;
+   	font-size: 14px;
+      background-image: url(img/bg0.jpg);
+   }
+
+   .container {
+   	width: 940px; 
+   	background-color: #eaeaea;
+   	margin: auto;
+   	color: #333;
+   	border-radius: 4px;
+   	box-shadow: #aaa 0 0 5px;
+   }
+
+   .header {
+   	margin-top: 20px;
+   	border-radius: 4px;
+   	box-shadow: #aaa 0 0 5px;
+   }
+
+   .header .judul {
+      color: #eaeaea;
+      border-radius: 4px;
+      box-shadow: #aaa 0 0 5px;
+      padding: 15px;
+      font-size: 30px;
+      font-weight: bold;
+      background-color: CornflowerBlue;
+      text-shadow: 2px 2px 6px #000;
+   }
+
+   .header .judul img {
+      width: 60px;
+      margin-right: 20px;
+   }
+
+   .header ul li {
+   	display: inline-block;
+   	margin-top: 20px;
+   	margin-left: 30px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      text-shadow: 5px 5px 8px #eaeaea;
+   }
+
+   .header	a {
+   	text-decoration: none;
+   	color: lightskyblue;
+   	padding: 3px;
+   }
+
+   .header a:hover	{
+   	background-color: lightskyblue;
+   	font-size: 23px;
+   	color: white;
+
+
+   }
+
+   .header h5 {
+   	float: right;
+   	font-size: 20px;
+   	color: lightskyblue;
+   	margin-top: -45px;
+   	padding: 5px;
+   	border-style: dotted;
+   	border-width: 2px;
+      margin-right: 10px;
+      border-radius: 4px;
+      box-shadow: #aaa 0 0 5px;
+      text-shadow: 1px 1px 3px #000000;
+   }
+
+   .hero {
+    background: linear-gradient(2deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(img/bg.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: 0 -40px;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid salmon;
+    border-radius: 5px;
+    box-shadow: #aaa 0 0 5px;
+ }
+
+ .hero div {
+   padding: 10px;
+   width: 400px;
+   border: none;
+   background-color: rgba(255,255,255,0.1);
+   margin: 40px 12px 40px 40px;
+}
+
+.hero h1 a {
+   width: 200px;
+   font-size: 20px;
+   margin: 60px 12px 1px 40px;
+   background-color: skyblue;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: #aaa 0 0 5px;
+
+}
+
+.hero .banner {
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+}
+.hero .banneri {
+   font-size: 14px;
+   color: white;
+}
+
+.content {
+ border-radius: 4px;
+ padding-top: 10px;
+ box-shadow: #aaa 0 0 5px;
+}
+
+.content .ucapan {
+ margin: 0 auto;
+ padding: 10px;
+ width: 250px;
+ font-size: 30px;
+ font-weight: bold;
+ text-align: center;
+ color: #008CCA;
+ text-decoration: blink;
+ border: double; 
+ border-radius: 5px;
+ box-shadow: #aaa 0 0 5px;
+ background-color: #ffffff;
+}
+.blink_me {
+ animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+ 50% {
+  opacity: 50%;
+}
+}
+
+.ws {
+ padding: 0;
+ position: relative;
+ width: 300px;
+ margin-left: 10px;
+ float: left;
+}
+.ws a {
+ text-decoration: none;
+}
+.ws .MPwidget {
+ width: 100%;
+ background-color: salmon;
+ margin: 10px 0;
+}
+.ws .MPheader {
+ background-image: linear-gradient(to left, #F08080, #FF69B4);
+ padding: 0;
+ min-height: 30px;
+}
+.ws .MPheader .logo {
+ display: none;
+}
+.ws .MPheader .title,
+.ws .tanggal {
+ padding: 0;
+ height: 30px;
+ line-height: 30px;
+ font-size: 11px;
+}
+.ws .MPwidget .title a {
+ font-size: 14px;
+ color: black;
+ margin-left: 5px;
+}
+.ws .tanggal {
+ color: #888;
+ font-family: 'Roboto', 'Open Sans', sans-serif;
+ font-weight: bold;
+ font-style: normal;
+ pointer-events: none;
+}
+.ws .tanggal {
+ position: absolute;
+ right: 5px;
+ top: 10px;
+ z-index: 20;
+ color: #008CCA;
+ float: right;
+}
+.ws .MPtimetable tr:first-child {
+ display: none;
+}
+.ws .MPtimetable tr {
+ display: inline-table;
+ width: 100px;
+ position: relative;
+}
+.ws .MPtimetable td {
+ position: relative;
+ display: table-row;
+ width: 74px;
+ padding: 5px;
+ text-align: center;
+ font-size: 14px;
+ height: 20px;
+ line-height: 20px;
+ background: rgba(250, 250, 250, 0);
+ text-transform: uppercase;
+ color: rgba(0, 0, 0, 0);
+}
+.ws .MPtimetable tr td:before {
+ font-size: 14px;
+ text-align: center;
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ color: #333;
+ height: 20px;
+ line-height: 20px;
+}
+.ws .MPtimetable tr:nth-child(2) td:nth-child(1):before {
+ content: "SUBUH";
+}
+.ws .MPtimetable tr:nth-child(3) td:nth-child(1):before {
+ content: "TERBIT";
+}
+.ws .MPtimetable tr:nth-child(4) td:nth-child(1):before {
+ content: "DZUHUR";
+}
+.ws .MPtimetable tr:nth-child(5) td:nth-child(1):before {
+ content: "ASHAR";
+}
+.ws .MPtimetable tr:nth-child(6) td:nth-child(1):before {
+ content: "MAGHRIB";
+}
+.ws .MPtimetable tr:nth-child(7) td:nth-child(1):before {
+ content: "ISYA";
+}
+.ws .MPtimetable td:nth-child(2) {
+ font-size: 14px;
+ height: 24px;
+ line-height: 20px;
+ background: rgba(250, 250, 250, 0);
+ text-transform: uppercase;
+ text-align: center;
+ color: #008CCA;
+}
+.ws .MPtimetable tr:nth-child(2n) {
+ background-color: #f7f7f7;
+}
+.ws .MPfooter {
+ display: none;
+
+}
+
+.left{
+ box-sizing: border-box;
+ margin: 10px 0;
+ height: 119px;
+ display: inline-block;
+ width: 300px;
+ margin-left: 10px;
+ float: left;
+ position: relative;
+ background-color: white;
+ border-radius: 4px;
+ box-shadow: #aaa 0 0 5px;
+}
+
+.imglogo {
+ background-image: linear-gradient(to left, #F08080, #FF69B4);
+ height: 30px;
+ border-radius: 4px 4px 0 0;
+}
+
+img {
+ margin: -13px auto;
+ width: 170px;
+}
+
+.left p {
+ font-size: 19px;
+ margin: 5px auto;
+ text-align: center;
+ color: #008CCA;
+ font-weight: bold;
+}
+
+textarea,input,select {
+ background-color: #FDFBFB;
+ border: 1px solid #008CCA;
+ border-radius:5px;
+ text-align:center;
+ font-size: 14px;
+ height: 25px;
+ color: #000000;
+ outline: none;
+ width: 150px;
+
+}
+
+.buttona {
+ background-color: #008CCA;
+ border: 1px solid #008CCA;
+ border-radius:5px;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ font-weight:bold;
+ margin: 5px 1px;
+ height: 21px;
+ width: 71px;
+ cursor: pointer;
+}
+.buttona:hover{
+ box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonb {
+ background-color: #DD2C00;
+ border: 1px solid #DD2C00;
+ border-radius:5px;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ font-weight:bold;
+ margin: 10px 1px;
+ cursor: pointer;
+ height: 35px;
+}
+.buttonb:hover{
+ box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style the tab */
+
+/*Style the buttons inside the tab*/
+div.tab button {
+ background-color: inherit;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 5px 5px;
+ transition: 0.3s;
+ font-weight:bold;
+ height: 35px;
+ width:50%;
+}
+
+div.tab button:hover {
+ background-color: #ddd;
+}
+
+div.tab button.active {
+ width: 100%;
+ background-color: #008CCA;
+ color: #FFFFFF
+}
+
+.tabcontent {
+ font-size: 0.1px;
+ display: none;
+ border-top: none;
+}
+
+.modal-window {
+ position: fixed;
+ background-color: rgba(0, 0, 0, 0.15);
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ z-index: 999;
+ opacity: 0;
+ pointer-events: none;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
+ border-radius:5px;
+
+}
+
+.modal-window:target {
+ opacity: 1;
+ pointer-events: auto;
+}
+
+.modal-window>div {
+ width: 300px;
+ position: relative;
+ margin: 10% auto;
+ padding: 1rem;
+ background: #3D4241;
+ color: #FFFFFF;
+ border-radius:5px;
+}
+
+.modal-window header {
+ font-weight: bold;
+}
+
+.modal-close {
+ color: #ffffff;
+ line-height: 25px;
+ position: absolute;
+ right: 0;
+ text-align: center;
+ top: 0;
+ width: 50px;
+ text-decoration: none;
+ background-color: red;
+ border-top-right-radius:5px;
+ border-bottom-left-radius:5px;
+}
+
+.modal-window h1 {
+ font-size: 150%;
+ margin: 0 0 15px;
+}
+
+.quotes {
+ width: 300px;
+ height: 119px;
+ float: right;
+ text-align: center;
+ box-sizing: border-box;
+ margin-top: 10px;
+ margin-right: 10px;
+ position: relative;
+ background-color: white;
+ border-radius: 4px;
+ box-shadow: #aaa 0 0 5px;
+}
+
+.quotes .q1 {
+ margin-bottom: 5px;
+ font-size: 18px; 
+ font-weight: bold;
+ height: 25px;
+ background-image: linear-gradient(to left, #F08080, #FF69B4);
+ padding-top: 5px;
+ border-radius: 4px 4px 0 0;
+}
+
+
+
+.quotes .q2 {
+ margin-bottom: 5px;
+ padding-top: 5px;
+ font-size: 12px;
+}
+
+.footer {
+   background-color: CornflowerBlue;
+   text-align: center;
+   height: 20px;
+   text-align: center;
+   padding: 10px;
+   border-radius: 4px;
+   box-shadow: #aaa 0 0 5px;
+}
+
+.footer i {
+ color:#ffffff;
+ text-shadow: 2px 2px 6px #000;
+}
+.footer a {
+ color:#ffffff;
+ text-shadow: 2px 2px 6px #000;
+ text-decoration: none;
+}
+
+.middle {
+   display: none;
+}
+
+.right {
+   display: none;
+}
+
+   /**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+ 	content: " "; /* 1 */
+ 	display: table; /* 2 */
+ }
+
+ .cf:after {
+ 	clear: both;
+ }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+ 	*zoom: 1;
+ }
+
+
+ @media screen and (max-width: 860px) {
+
+   .container {
+    margin-top: 10px;
+    width: 90%;
+ }
+ .header {
+   height: 100px;
+}
+.header ul li {
+   margin-top: -5px;
+   padding-top: 15px;
+   font-size: 16px;
+}
+.hero {
+   height: 200px;
+}
+.hero div {
+   width: 50%;
+}
+.hero div .banner {
+   font-size: 21px;
+}
+.hero div .banneri {
+   font-size: 12px;
+}
+.content .ucapan {
+ width: 150px;
+ font-size: 20px;
+
+}
+.content .ws {
+   width: 30%;
+   margin-right: 5px;
+   margin-left: 20px;
+}
+.ws .MPtimetable tr:first-child {
+ display: none;
+}
+.ws .MPtimetable tr {
+ display: inline-table;
+ width: 33.333%;
+ position: relative;
+}
+.ws .MPtimetable td {
+ position: relative;
+ width: 74px;
+ text-align: center;
+ font-size: 10px;
+ height: 20px;
+ line-height: 20px;
+}
+.ws .MPtimetable tr td:before {
+   font-size: 10px;
+}
+.ws .tanggal {
+   display: none;
+}
+.content .left {
+   width: 30%;
+   margin-left: 8px;
+}
+.content .quotes {
+   width: 30%;
+   margin-left: 15px;
+   margin-right: 0;
+   float: left;
+}
+.content .quotes .q1 {
+   font-size: 14px;
+}
+.content .quotes .q2 {
+   font-size: 9px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+   .container {
+    margin-top: 2px;
+    width: 90%;
+ }
+ .header {
+   height: 100px;
+   margin-top: 5px;
+}
+.header .judul {
+   font-size: 23px;
+}
+.header ul li {
+   margin-top: -5px;
+   margin-left: 2px;
+   padding-top: 15px;
+   font-size: 13px;
+}
+#jam {
+   display: block;
+   margin-top: -39px;
+   margin-right: 1px;
+}
+.hero {
+   height: 140px;
+   background-position: 0 -20px;
+}
+.hero div {
+   width: 80%;
+   margin: 10px 5px;
+}
+.hero div .banner {
+   font-size: 17px;
+}
+.hero div .banneri {
+   font-size: 9px;
+}
+.hero h1 a {
+   width: 100px;
+   font-size: 12px;
+   margin: 5px;
+}
+.content .ucapan {
+ width: 70px;
+ font-size: 9px;
+
+}
+.content .ws {
+   width: 95%;
+   margin-left: 2.5%;
+}
+.ws .MPtimetable tr:first-child {
+ display: none;
+}
+.ws .MPtimetable tr {
+ display: inline-table;
+ width: 33.333%;
+ position: relative;
+}
+.ws .MPtimetable td {
+ position: relative;
+ width: 74px;
+ text-align: center;
+ font-size: 10px;
+ height: 20px;
+ line-height: 20px;
+}
+.ws .MPtimetable tr td:before {
+   font-size: 10px;
+}
+.ws .tanggal {
+   display: block;
+   font-size: 10px;
+}
+.content .left {
+   width: 95%;
+   margin-left: 2.5%;
+}
+.content .quotes {
+   width: 95%;
+   margin-right: 2.5%;
+}
+.content .quotes .q1 {
+   font-size: 16px;
+}
+.content .quotes .q2 {
+   font-size: 12px;
+
+}
+
+@media screen and (max-width: 370px) {
+   #jam {
+      display: none;
+   }
+}
+@media screen and (max-width: 315px) {
+   .ws .tanggal {
+      display: none;
+   }
+}
