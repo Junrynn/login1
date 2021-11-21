@@ -423,7 +423,8 @@ div.tab button.active {
  color: #FFFFFF
 }
 
-.tabcontent {
+.tabcontent .hidden {
+ font-size: 12.1px;
  display: none;
  border-top: none;
 }

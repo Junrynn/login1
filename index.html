@@ -122,7 +122,7 @@
 						<p class="tablinks" onclick="openLogin(event, 'KV')" id="kodevoucher">Silahkan Login</p>
 					</div>
 					<div id="KV" class="tabcontent">
-						$(if chap-id)
+						<div class="hidden">$(if chap-id)</div>
 						<form name="sendinkv" action="$(link-login-only)" method="post">
 							<input type="hidden" name="username" />
 							<input type="hidden" name="password" />
@@ -138,7 +138,7 @@
 								return false;
 							}
 						</script>
-						$(endif)
+						<div class="hidden">$(endif)</div>
 						<div>
 							<center>
 								<form autocomplete="off" name="loginkv" action="$(link-login-only)" method="post"
