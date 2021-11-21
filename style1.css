@@ -424,7 +424,6 @@ div.tab button.active {
 }
 
 .tabcontent {
- font-size: 0.1px;
  display: none;
  border-top: none;
 }
